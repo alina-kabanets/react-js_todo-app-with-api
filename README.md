@@ -6,6 +6,7 @@ The React ToDo App is a user-friendly task management application designed to he
 
 ## [Check the live demo here](https://alina-kabanets.github.io/react-js_todo-app-with-api/)
 
+
 ![preview img](/description/todoapp.gif)
 
 ![preview img](/description/edittodo.gif)
@@ -27,7 +28,7 @@ The React ToDo App is a user-friendly task management application designed to he
 
 The project was implemented using pre-made HTML and CSS markups; my task was to develop the React.js with TypeScript part.
 
-### Adding a todo
+### Adding a todo:
 
   Add a todo with the entered title on form submit:
 
@@ -44,7 +45,7 @@ The project was implemented using pre-made HTML and CSS markups; my task was to 
   - in case of success the text is cleared;
   - keeps the text in case of an error;
 
-### Deleting todos
+### Deleting todos:
 
   Removes a todo on the TodoDeleteButton click:
 
