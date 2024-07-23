@@ -17,7 +17,7 @@ The React ToDo App is a user-friendly task management application designed to he
   - React functional components;
   - useEffect, useState, useContext, useDispatch, useRef, custom hooks;
   - useReducer for a better understanding of what is under the hood of Redux;
-  - Local storage, refactored to API;
+  - Local storage, refactored to using fetch from API;
   - GET, DELETE, PATCH, POST methods for working with the API;
   - Promises, refactored to async/await syntax;
   - TypeScript types and enums;
@@ -30,7 +30,7 @@ The project was implemented using pre-made HTML and CSS markups; my task was to 
 
 ### Adding a todo:
 
-  Add a todo with the entered title on form submit:
+  Adds a todo with the entered title on form submit:
 
   - the text field is focused by default;
   - if the title is empty - a "Title should not be empty" notification is shown at the bottom;
