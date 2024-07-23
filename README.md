@@ -59,15 +59,6 @@ The project was implemented using pre-made HTML and CSS markups; my task was to 
   - the deletion works as several individual deletions running at the same time;
   - in case of any error shows an error message but processes success deletions;
 
-### Inline editing for the TodoItem:
-
-  - double-clicking on the todo title shows a text field instead of the title and deleteButton;
-  - form submission saves changes (press Enter to save);
-  - the saved text is trimmed;
-  - the todo is deleted if the title is empty;
-  - changes are saved onBlur;
-  - pressing Escape cancels editing;
-
 ### Toggling a todo status:
 
 Toggles the completed status on TodoStatus change:
@@ -84,7 +75,7 @@ Allows toggling the completed status of all the todos with the toggleAll checkbo
   - sends requests for the todos that were not changed;
 
 
-### Renaming a todo:
+### Inline editing for the TodoItem:
 
   Allows editing a todo title on double-click:
 
