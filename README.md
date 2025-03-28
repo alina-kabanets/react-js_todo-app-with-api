@@ -24,7 +24,10 @@ The React ToDo App is a user-friendly task management application designed to he
   - React Transition Groups;
 
 
+
+
 ## Key Contributions:
+
 
 ### React Development:
 Utilized React functional components, incorporating hooks such as useEffect, useState, useContext, useReducer, and custom hooks to manage component state and side effects.
@@ -49,6 +52,7 @@ Developed user-friendly error handling mechanisms, displaying appropriate notifi
 
 
 
+  
 
 ## Features Implemented:
 
@@ -62,7 +66,7 @@ Implemented task deletion with immediate UI feedback and error handling, includi
 ### Toggling Todo Status:
 Allowed users to toggle task completion status with overlay loaders and synchronized status updates with the backend.
 
-# Renaming Todos: 
+### Renaming Todos: 
 Provided in-place task renaming functionality with support for keyboard events, API integration, and rollback on errors.
 
 ### Bulk Operations: 
@@ -70,9 +74,13 @@ Developed bulk operations like toggling all task statuses and clearing completed
 
 
 
+
+
 ## 🤝 **Contributing**
 
 Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit feedback.
+
+
 
 
 ## 📧 **Contact**
