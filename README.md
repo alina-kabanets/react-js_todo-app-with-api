@@ -1,12 +1,12 @@
 # React ToDo App
 
-## Overview
+## 📌 Overview
 
 The React ToDo App is a user-friendly task management application designed to help users stay organized and productive. It provides a soothing and visually appealing user interface, along with a range of features to enhance the task management experience. The ToDo App was developed using React and TypeScript, focusing on advanced state management, API integration, and user interaction enhancements. The app enables users to efficiently manage their tasks, supporting features like adding, deleting, updating, and toggling task status. The project involved converting pre-made HTML and CSS markups into a fully functional, interactive application, integrating complex UI behaviors with robust API handling.
 
 
 
-## [Check the live demo here](https://alina-kabanets.github.io/react-js_todo-app-with-api/)
+## 🔗 [Check the live demo here](https://alina-kabanets.github.io/react-js_todo-app-with-api/)
 
 
 
@@ -16,7 +16,7 @@ The React ToDo App is a user-friendly task management application designed to he
 ![preview img](/description/edittodo.gif)
 
 
-## Technologies:
+## **🛠️ Technologies Used**
 
   - React functional components;
   - useEffect, useState, useContext, useDispatch, useRef, custom hooks;
@@ -30,7 +30,7 @@ The React ToDo App is a user-friendly task management application designed to he
 
 
 
-## Key Contributions:
+## 🚀 Key Contributions:
 
 
 ### React Development:
@@ -58,7 +58,7 @@ Developed user-friendly error handling mechanisms, displaying appropriate notifi
 
   
 
-## Features Implemented:
+## ✨ Features Implemented:
 
 
 ### Adding a Todo: 
