@@ -9,6 +9,7 @@ The React ToDo App is a user-friendly task management application designed to he
 ## 🔗 [Check the live demo here](https://alina-kabanets.github.io/react-js_todo-app-with-api/)
 
 
+## 📸 **Screenshots**
 
 
 ![preview img](/description/todoapp.gif)
