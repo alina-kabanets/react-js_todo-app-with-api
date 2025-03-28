@@ -2,7 +2,7 @@
 
 ## Overview
 
-The React ToDo App is a user-friendly task management application designed to help users stay organized and productive. It provides a soothing and visually appealing user interface, along with a range of features to enhance the task management experience.
+The React ToDo App is a user-friendly task management application designed to help users stay organized and productive. It provides a soothing and visually appealing user interface, along with a range of features to enhance the task management experience. The ToDo App was developed using React and TypeScript, focusing on advanced state management, API integration, and user interaction enhancements. The app enables users to efficiently manage their tasks, supporting features like adding, deleting, updating, and toggling task status. The project involved converting pre-made HTML and CSS markups into a fully functional, interactive application, integrating complex UI behaviors with robust API handling.
 
 ## [Check the live demo here](https://alina-kabanets.github.io/react-js_todo-app-with-api/)
 
@@ -24,70 +24,45 @@ The React ToDo App is a user-friendly task management application designed to he
   - React Transition Groups;
 
 
-## Features:
+## Key Contributions:
 
-The project was implemented using pre-made HTML and CSS markups; my task was to develop the React.js with TypeScript part.
+React Development: Utilized React functional components, incorporating hooks such as useEffect, useState, useContext, useReducer, and custom hooks to manage component state and side effects.
 
-### Adding a todo:
+TypeScript Integration: Implemented TypeScript for enhanced type safety, using types, interfaces, and enums to define component props and application state, ensuring robust code quality and reducing runtime errors.
 
-  Adds a todo with the entered title on form submit:
+API Interaction: Handled data persistence with API server using GET, POST, PATCH, and DELETE methods. Applied async/await syntax for cleaner, more readable asynchronous code, and managed API calls with error handling and user feedback.
 
-  - the text field is focused by default;
-  - if the title is empty - a "Title should not be empty" notification is shown at the bottom;
-  - the title is trimmed when checked or saved;
-  - sends a POST request to the API;
-  - the input is disabled until receiving a response from the API;
-  - immediately after sending a request, a todo with id: 0 is created and saved to the tempTodo variable in the state;
-  - the temporary TodoItem has a loader;
-  - in case of success, the todo created by the API is added to the array;
-  - in case of an API error an "Unable to add a todo" notification is shown at the bottom;
-  - the text field is focused after receiving a response;
-  - in case of success the text is cleared;
-  - keeps the text in case of an error;
+State Management: Explored useReducer to deepen understanding of Redux-like state management patterns and used useDispatch for controlled state updates.
 
-### Deleting todos:
+UI/UX Enhancements: Implemented smooth UI transitions using React Transition Groups, improving user experience by providing visual feedback on task operations.
 
-  Removes a todo on the TodoDeleteButton click:
+Local Storage: Initially integrated local storage for task persistence, later refactoring to sync data directly with the API server, ensuring data consistency across user sessions.
 
-  - the todo is covered with a loader while waiting for the API response;
-  - removes the todo from the list on success;
-  - in case of API error shows an "Unable to delete a todo" notification at the bottom (the todo stays in the list);
+Error Handling & Notifications: Developed user-friendly error handling mechanisms, displaying appropriate notifications for scenarios like empty task titles, API failures, and task update errors.
 
-  Removes all the completed todos after the ClearCompleted button click:
+### Features Implemented:
 
-  - the button is enabled only if there is at least one completed todo;
-  - the deletion works as several individual deletions running at the same time;
-  - in case of any error shows an error message but processes success deletions;
+Adding a Todo: Enabled users to add tasks with validation, API integration for task creation, and real-time UI updates using temporary task states with loaders.
 
-### Toggling a todo status:
+Deleting Todos: Implemented task deletion with immediate UI feedback and error handling, including batch deletion for completed tasks.
 
-Toggles the completed status on TodoStatus change:
+Toggling Todo Status: Allowed users to toggle task completion status with overlay loaders and synchronized status updates with the backend.
 
-  - the todo is covered with a loader overlay while waiting for the API response;
-  - the status changes on success;
-  - shows an "Unable to update a todo" notification in case of API error;
+Renaming Todos: Provided in-place task renaming functionality with support for keyboard events, API integration, and rollback on errors.
 
-Allows toggling the completed status of all the todos with the toggleAll checkbox:
+Bulk Operations: Developed bulk operations like toggling all task statuses and clearing completed tasks with synchronized API requests and error handling.
 
-  - the toggleAll button has active class only if all the todos are completed;
-  - clicking toggleAll changes its status to the opposite one and sets this new status for all the todos;
-  - it works the same as several individual updates of the todos which statuses were actually changed;
-  - sends requests for the todos that were not changed;
+## 🤝 **Contributing**
 
+Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit feedback.
 
-### Inline editing for the TodoItem:
+## 📧 **Contact**
 
-  Allows editing a todo title on double-click:
+If you have any questions or suggestions, feel free to reach out:
 
-  - shows the edit form instead of the title and remove button;
-  - saves changes on the form submit (press Enter);
-  - saves changes when the field loses focus (onBlur);
-  - if the new title is the same as the old one it cancels editing;
-  - cancels editing on Esс key keyup event;
-  - if the new title is empty it deletes the todo the same way the remove button does it;
-  - if the title was changed, shows the loader while waiting for the API response;
-  - updates the todo title on success;
-  - shows "Unable to update a todo" in case of an API error or a deletion error message if attempting to delete the todo;
+LinkedIn: [Alina Kabanets](https://www.linkedin.com/in/alina-kabanets/)
+
+GitHub: [alina-kabanets](https://github.com/alina-kabanets)
 
 ### Quick start guide
 
