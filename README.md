@@ -48,6 +48,8 @@ Initially integrated local storage for task persistence, later refactoring to sy
 Developed user-friendly error handling mechanisms, displaying appropriate notifications for scenarios like empty task titles, API failures, and task update errors.
 
 
+
+
 ## Features Implemented:
 
 
@@ -67,9 +69,11 @@ Provided in-place task renaming functionality with support for keyboard events, 
 Developed bulk operations like toggling all task statuses and clearing completed tasks with synchronized API requests and error handling.
 
 
+
 ## 🤝 **Contributing**
 
 Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit feedback.
+
 
 ## 📧 **Contact**
 
@@ -78,6 +82,8 @@ If you have any questions or suggestions, feel free to reach out:
 LinkedIn: [Alina Kabanets](https://www.linkedin.com/in/alina-kabanets/)
 
 GitHub: [alina-kabanets](https://github.com/alina-kabanets)
+
+
 
 ### Quick start guide
 
