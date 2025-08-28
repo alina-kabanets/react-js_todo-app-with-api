@@ -21,7 +21,7 @@ The React ToDo App is a user-friendly task management application designed to he
 
   - React functional components;
   - useEffect, useState, useContext, useDispatch, useRef, custom hooks;
-  - useReducer for a better understanding of what is under the hood of Redux;
+  - useReducer to gain a deeper understanding of how Redux works under the hood; later replaced with Redux itself;
   - Local storage, refactored to using fetch from API;
   - GET, DELETE, PATCH, POST methods for working with the API;
   - Promises, refactored to async/await syntax;
